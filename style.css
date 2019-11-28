@@ -1,0 +1,182 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#bins {
+    margin-top: 40px;
+}
+
+#blue {
+    border: 3px solid black;
+    border-radius: 40px;
+    background: #16193D;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+#green {
+    border: 3px solid black;
+    border-radius: 40px;
+    background: #0B2E13;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+#brown {
+    border: 3px solid black;
+    border-radius: 40px;
+    background: #69471E;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+#yellow {
+    border: 3px solid black;
+    border-radius: 40px;
+    background: #E0D42B;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    cursor: pointer;
+}
+
+#blue:hover {
+    background: #3f47ac;
+    transition-duration: 0.1s;
+}
+
+#blue:not(hover) {
+    background: #16193D;
+    transition-duration: 0.1s;
+}
+
+#green:hover {
+    background: #208c37;
+    transition-duration: 0.1s;
+}
+
+#green:not(hover) {
+    background: #0B2E13;
+    transition-duration: 0.1s;
+}
+#brown:hover {
+    background: #b67c32;
+    transition-duration: 0.1s;
+}
+
+#brown:not(hover) {
+    background: #69471E;
+    transition-duration: 0.1s;
+}
+#yellow:hover {
+    background: #fffc67;
+    transition-duration: 0.1s;
+}
+
+#yellow:not(hover) {
+    background: #E0D42B;
+    transition-duration: 0.1s;
+}
+
+
+#score {
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #106900;
+    margin-top: 10px;
+}
+
+#clicks {
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #106900;
+    margin-top: 10px;
+}
+
+#litters {
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #ffffff;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#begin {
+    color: white;
+    background: #106900;
+    padding: 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+#begin:hover {
+    background: #1fce00;
+    transition-duration: 0.1s;
+}
+
+#begin:not(hover) {
+    background: #106900;
+    transition-duration: 0.1s;
+}
+
+#endScore {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    position: fixed;
+    text-align: center;
+    z-index: 5;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #2b2b2b;
+    padding: 50px;
+}
+
+#description {
+    text-align: center;
+    font-size: 18pt;
+    color: white;
+}
+
+#wrong_answer {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    position: fixed;
+    text-align: center;
+    z-index: 5;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #2b2b2b;
+    padding: 50px;
+}
+
+#right_answer {
+    color: white;
+    width: 90%;
+    margin-left: 5%;
+    position: fixed;
+    text-align: center;
+    z-index: 5;
+    border: 3px solid black;
+    border-radius: 10px;
+    background: #2b2b2b;
+    padding: 50px;
+}
+
+#cache {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    text-align: center;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.45);
+    color: rgba(0, 0, 0, 0);
+}
